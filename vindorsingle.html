@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecom</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      class="top-bar py-2 border-bottom text-secondary"
+      style="font-size: 0.85rem">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="top-links d-none d-md-flex align-items-center gap-2">
+          <a href="#" class="text-decoration-none text-secondary">About us</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary">Careers</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary"
+            >Open a shop</a
+          >
+        </div>
+
+        <div class="top-promo">
+          <span
+            >Free shipping for all orders over
+            <strong class="text-success">$75.00</strong></span
+          >
+        </div>
+
+        <div class="top-right d-flex align-items-center gap-3">
+          <span class="d-none d-lg-inline"
+            >Need help? Call Us:
+            <strong class="text-success">+ 1800 900</strong></span
+          >
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              <span class="me-1">🇬🇧</span> English
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item active-lang" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Français</a></li>
+              <li><a class="dropdown-item" href="#">Español</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              USD
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item" href="#">USD</a></li>
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="py-3 bg-white border-bottom">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#" class="navbar-brand text-primary fw-bold fs-3">
+          <img src="./images/logo.svg" alt="Ecom Logo" />
+        </a>
+
+        <div
+          class="search-box d-none d-lg-flex align-items-center border rounded-2 px-2 py-1 mx-3 flex-grow-1"
+          style="max-width: 420px">
+          <select
+            class="form-select border-0 shadow-none fw-semibold text-secondary w-auto py-0 pe-4"
+            id="filterButtons">
+            <option value="all" selected>All categories</option>
+
+            <option value="Electronics">Electronics</option>
+
+            <option value="Fashion">Fashion</option>
+
+            <option value="Home & Garden">Home & Garden</option>
+          </select>
+          <span class="border-end mx-2" style="height: 20px"></span>
+          <input
+            type="text"
+            id="searchInput"
+            class="form-control border-0 shadow-none p-0 flex-grow-1"
+            placeholder="Search for items"
+            style="font-size: 0.85rem" />
+          <button
+            class="btn btn-sm text-secondary border-0 p-0 ms-2"
+            type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div
+          class="navbar navbar-expand-lg d-flex justify-content-end position-relative">
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
+            aria-label="Open navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <nav class="d-none d-lg-block">
+            <ul class="navbar-nav flex-row gap-3">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-dark fw-semibold dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- القائمة الجانبية للموبايل -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="mobileMenu"
+          aria-labelledby="mobileMenuLabel">
+          <!-- رأس القائمة -->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title fw-bold" id="mobileMenuLabel">Ecom</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- محتوى القائمة -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-2">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-3 ms-3">
+          <a href="#" class="text-secondary fs-5 text-decoration-none">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-regular fa-heart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >5</span
+            >
+          </a>
+          <button
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#cartOffcanvas"
+            class="cart-button text-secondary fs-5 text-decoration-none position-relative border-0 bg-light">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span
+              id="cartCount"
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >0</span
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title fw-bold">
+          <i class="fa fa-shopping-cart text-primary"></i>
+          Shopping Cart
+        </h5>
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"></button>
+      </div>
+
+      <div class="offcanvas-body d-flex flex-column">
+        <div id="offcanvasCartItems"></div>
+
+        <div class="mt-auto">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <span class="fw-bold"> Total: </span>
+
+            <span class="fw-bold text-primary" id="offcanvasCartTotal">
+              $0.00
+            </span>
+          </div>
+
+          <a
+            href="shop-checkout.html"
+            class="btn btn-primary w-100 fw-bold mb-2"
+            style="background-color: #425a8b">
+            Proceed to Checkout
+          </a>
+
+          <a href="shop-cart.html" class="btn btn-submit w-100 fw-bold">
+            View Cart
+          </a>
+        </div>
+      </div>
+    </div>
+
+<main class="vendor-single">
+
+  <!-- Vendor Information -->
+  <section class="row g-3 align-items-stretch">
+
+    <div class="col-12 col-lg-9">
+      <div class="vendor-cover">
+        <img
+          src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=1400&q=85"
+          alt="Factory production facility">
+      </div>
+
+      <div class="vendor-profile">
+        <div class="vendor-brand">
+          <strong><span class="brand-mark">◈</span> Fasfox</strong>
+          <span class="brand-products">360 Products</span>
+        </div>
+
+        <div class="vendor-name">
+          <h2>Fasfox Corporation</h2>
+          <small>Member since 2012 &nbsp;
+            <span class="stars">★★★★★</span> (65)
+          </small>
+        </div>
+
+        <div class="vendor-contact">
+          <i class="bi bi-geo-alt"></i>
+          <span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</span>
+        </div>
+
+        <div class="vendor-contact">
+          <i class="bi bi-telephone"></i>
+          <span>(+91) - 540-025-124553</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="col-12 col-lg-3">
+      <div class="service-panel">
+
+        <div class="service-item">
+          <i class="bi bi-airplane"></i>
+          <div>
+            <strong>Free Delivery</strong>
+            <span>From all orders over $10</span>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class="bi bi-headset"></i>
+          <div>
+            <strong>Support 24/7</strong>
+            <span>Shop with an expert</span>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class="bi bi-box-seam"></i>
+          <div>
+            <strong>Return & Refund</strong>
+            <span>Free return over $200</span>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class="bi bi-shield-lock"></i>
+          <div>
+            <strong>Secure payment</strong>
+            <span>100% Protected</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Products Toolbar -->
+  <div class="products-toolbar">
+
+    <button class="filter-button" id="filterReset">
+      <i class="bi bi-sliders"></i> All Filters
+    </button>
+
+    <div class="toolbar-controls">
+      <span id="resultsText">Showing 16-30 of 120 results</span>
+
+      <label for="sortSelect" class="muted">Sort by:</label>
+      <select id="sortSelect">
+        <option value="latest">Latest products</option>
+        <option value="priceLow">Price: Low to High</option>
+        <option value="priceHigh">Price: High to Low</option>
+        <option value="name">Name A-Z</option>
+      </select>
+
+      <label for="perPage" class="muted">Show</label>
+      <select id="perPage">
+        <option value="20">20 items</option>
+        <option value="30" selected>30 items</option>
+        <option value="10">10 items</option>
+      </select>
+
+      <button class="view-button active" id="gridButton" aria-label="Grid view">
+        <i class="bi bi-grid-fill"></i>
+      </button>
+
+      <button class="view-button" id="listButton" aria-label="List view">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Products -->
+  <section class="row products-grid" id="productsGrid"></section>
+
+  <!-- Pagination -->
+  <nav aria-label="Product pages">
+    <ul class="pagination justify-content-center flex-wrap"
+        id="pagination"></ul>
+  </nav>
+
+</main>
+
+<script>
+  // Replace these demonstration image URLs with your product assets.
+  const productTypes = [
+    {
+      name: 'Samsung 36" French door 28 cu. ft. Smart Energy Star',
+      brand: "Apple",
+      price: 2856.3,
+      oldPrice: 3295.6,
+      image: "https://images.unsplash.com/photo-1527430253228-e93688616381?w=500&q=85"
+    },
+    {
+      name: "2022 Apple iMac with Retina 5K Display 8GB RAM",
+      brand: "Apple",
+      price: 2856.3,
+      oldPrice: 3295.6,
+      image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=85"
+    },
+    {
+      name: 'Samsung 36" French door 28 cu. ft. Smart Energy Star',
+      brand: "Apple",
+      price: 2856.3,
+      oldPrice: 3295.6,
+      image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=85"
+    },
+    {
+      name: "2022 Apple iMac with Retina 5K Display 8GB RAM",
+      brand: "Apple",
+      price: 2856.3,
+      oldPrice: 3295.6,
+      image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=85"
+    },
+    {
+      name: 'Samsung 36" French door 28 cu. ft. Smart Energy Star',
+      brand: "Apple",
+      price: 2856.3,
+      oldPrice: 3295.6,
+      image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=85"
+    }
+  ];
+
+  const products = Array.from({ length: 120 }, (_, i) => {
+    const type = productTypes[i % productTypes.length];
+
+    return {
+      id: i + 1,
+      ...type,
+      price: +(type.price + Math.floor(i / 5) * 5).toFixed(2),
+      rating: 65,
+      discount: 17
+    };
+  });
+
+  let currentPage = 2;
+  let perPage = 30;
+  let sortType = "latest";
+  let viewType = "grid";
+
+  const grid = document.getElementById("productsGrid");
+  const pagination = document.getElementById("pagination");
+
+  const formatPrice = value =>
+    "$" + Number(value).toFixed(2);
+
+  function productCard(product) {
+    return `
+      <div class="product-column">
+        <article class="product-card">
+
+          <span class="discount-badge">-${product.discount}%</span>
+
+          <div class="product-image">
+            <img src="${product.image}"
+                 alt="${product.name}"
+                 loading="lazy">
+          </div>
+
+          <div class="product-brand">${product.brand}</div>
+
+          <div class="product-title">${product.name}</div>
+
+          <div class="product-rating">
+            ★★★★★ <span class="review-count">(${product.rating})</span>
+          </div>
+
+          <div class="product-price">
+            <span class="new-price">${formatPrice(product.price)}</span>
+            <span class="old-price">${formatPrice(product.oldPrice)}</span>
+          </div>
+
+          <button class="add-cart" data-id="${product.id}">
+            Add To Cart
+          </button>
+
+          <ul class="product-features">
+            <li>27-inch diagonal Retina 5K display</li>
+            <li>3.2GHz 6-core Intel processor</li>
+            <li>AMD Radeon Pro graphics</li>
+          </ul>
+
+        </article>
+      </div>
+    `;
+  }
+
+  function getSortedProducts() {
+    const result = [...products];
+
+    if (sortType === "priceLow") {
+      result.sort((a, b) => a.price - b.price);
+    }
+
+    if (sortType === "priceHigh") {
+      result.sort((a, b) => b.price - a.price);
+    }
+
+    if (sortType === "name") {
+      result.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    return result;
+  }
+
+  function pageButton(label, page, active = false, disabled = false) {
+    return `
+      <li class="page-item ${active ? "active" : ""} ${disabled ? "disabled" : ""}">
+        <button type="button"
+                class="page-link"
+                data-page="${page}"
+                ${disabled ? "disabled" : ""}>
+          ${label}
+        </button>
+      </li>
+    `;
+  }
+
+  function renderPagination(totalPages) {
+    let html = pageButton(
+      '<i class="bi bi-chevron-left"></i>',
+      currentPage - 1,
+      false,
+      currentPage === 1
+    );
+
+    // Display up to six page numbers, as in the reference.
+    const maxVisible = 6;
+    const startPage = Math.max(
+      1,
+      Math.min(currentPage - 2, totalPages - maxVisible + 1)
+    );
+    const endPage = Math.min(totalPages, startPage + maxVisible - 1);
+
+    for (let i = startPage; i <= endPage; i++) {
+      html += pageButton(i, i, currentPage === i);
+    }
+
+    html += pageButton(
+      '<i class="bi bi-chevron-right"></i>',
+      currentPage + 1,
+      false,
+      currentPage === totalPages
+    );
+
+    pagination.innerHTML = html;
+
+    pagination.querySelectorAll("button:not(:disabled)")
+      .forEach(button => {
+        button.addEventListener("click", () => {
+          currentPage = Number(button.dataset.page);
+          renderProducts();
+        });
+      });
+  }
+
+  function renderProducts() {
+    const sorted = getSortedProducts();
+    const totalPages = Math.max(1, Math.ceil(sorted.length / perPage));
+
+    currentPage = Math.min(currentPage, totalPages);
+
+    const start = (currentPage - 1) * perPage;
+    const displayed = sorted.slice(start, start + perPage);
+
+    grid.classList.toggle("list-view", viewType === "list");
+    grid.innerHTML = displayed.map(productCard).join("");
+
+    const from = displayed.length ? start + 1 : 0;
+    const to = Math.min(start + perPage, sorted.length);
+
+    document.getElementById("resultsText").textContent =
+      `Showing ${from}-${to} of ${sorted.length} results`;
+
+    renderPagination(totalPages);
+  }
+
+  // Sort
+  document.getElementById("sortSelect").addEventListener("change", e => {
+    sortType = e.target.value;
+    currentPage = 1;
+    renderProducts();
+  });
+
+  // Items per page
+  document.getElementById("perPage").addEventListener("change", e => {
+    perPage = Number(e.target.value);
+    currentPage = 1;
+    renderProducts();
+  });
+
+  // Grid view
+  document.getElementById("gridButton").addEventListener("click", () => {
+    viewType = "grid";
+    document.getElementById("gridButton").classList.add("active");
+    document.getElementById("listButton").classList.remove("active");
+    renderProducts();
+  });
+
+  // List view
+  document.getElementById("listButton").addEventListener("click", () => {
+    viewType = "list";
+    document.getElementById("listButton").classList.add("active");
+    document.getElementById("gridButton").classList.remove("active");
+    renderProducts();
+  });
+
+  // Reset filters
+  document.getElementById("filterReset").addEventListener("click", () => {
+    sortType = "latest";
+    perPage = 30;
+    currentPage = 1;
+    document.getElementById("sortSelect").value = "latest";
+    document.getElementById("perPage").value = "30";
+    renderProducts();
+  });
+
+  // Demo cart interaction
+  grid.addEventListener("click", e => {
+    const button = e.target.closest(".add-cart");
+    if (!button) return;
+
+    button.textContent = "Added ✓";
+    button.style.backgroundColor = "#405c94";
+    button.style.color = "#fff";
+  });
+
+  renderProducts();
+</script>
+ <a href="#" 
+    id="back-to-top"
+
+    class="btn  position-fixed bottom-0 end-0 m-3 rounded-circle"
+    style="display: none; background-color:#425A8B">
+    <i class="fa fa-arrow-up" ></i></a>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

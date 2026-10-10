@@ -1,0 +1,1835 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecom</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      class="top-bar py-2 border-bottom text-secondary"
+      style="font-size: 0.85rem">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="top-links d-none d-md-flex align-items-center gap-2">
+          <a href="#" class="text-decoration-none text-secondary">About us</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary">Careers</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary"
+            >Open a shop</a
+          >
+        </div>
+
+        <div class="top-promo">
+          <span
+            >Free shipping for all orders over
+            <strong class="text-success">$75.00</strong></span
+          >
+        </div>
+
+        <div class="top-right d-flex align-items-center gap-3">
+          <span class="d-none d-lg-inline"
+            >Need help? Call Us:
+            <strong class="text-success">+ 1800 900</strong></span
+          >
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              <span class="me-1">🇬🇧</span> English
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item active-lang" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Français</a></li>
+              <li><a class="dropdown-item" href="#">Español</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              USD
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item" href="#">USD</a></li>
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="py-3 bg-white border-bottom">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#" class="navbar-brand text-primary fw-bold fs-3">
+          <img src="./images/logo.svg" alt="Ecom Logo" />
+        </a>
+
+        <div
+          class="search-box d-none d-lg-flex align-items-center border rounded-2 px-2 py-1 mx-3 flex-grow-1"
+          style="max-width: 420px">
+          <select
+            class="form-select border-0 shadow-none fw-semibold text-secondary w-auto py-0 pe-4"
+            id="filterButtons">
+            <option value="all" selected>All categories</option>
+
+            <option value="Electronics">Electronics</option>
+
+            <option value="Fashion">Fashion</option>
+
+            <option value="Home & Garden">Home & Garden</option>
+          </select>
+          <span class="border-end mx-2" style="height: 20px"></span>
+          <input
+            type="text"
+            id="searchInput"
+            class="form-control border-0 shadow-none p-0 flex-grow-1"
+            placeholder="Search for items"
+            style="font-size: 0.85rem" />
+          <button
+            class="btn btn-sm text-secondary border-0 p-0 ms-2"
+            type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div
+          class="navbar navbar-expand-lg d-flex justify-content-end position-relative">
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
+            aria-label="Open navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <nav class="d-none d-lg-block">
+            <ul class="navbar-nav flex-row gap-3">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-dark fw-semibold dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- القائمة الجانبية للموبايل -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="mobileMenu"
+          aria-labelledby="mobileMenuLabel">
+          <!-- رأس القائمة -->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title fw-bold" id="mobileMenuLabel">Ecom</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- محتوى القائمة -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-2">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-3 ms-3">
+          <a href="#" class="text-secondary fs-5 text-decoration-none">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-regular fa-heart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >5</span
+            >
+          </a>
+          <button
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#cartOffcanvas"
+            class="cart-button text-secondary fs-5 text-decoration-none position-relative border-0 bg-light">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span
+              id="cartCount"
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >0</span
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title fw-bold">
+          <i class="fa fa-shopping-cart text-primary"></i>
+          Shopping Cart
+        </h5>
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"></button>
+      </div>
+
+      <div class="offcanvas-body d-flex flex-column">
+        <div id="offcanvasCartItems"></div>
+
+        <div class="mt-auto">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <span class="fw-bold"> Total: </span>
+
+            <span class="fw-bold text-primary" id="offcanvasCartTotal">
+              $0.00
+            </span>
+          </div>
+
+          <a
+            href="shop-checkout.html"
+            class="btn btn-primary w-100 fw-bold mb-2"
+            style="background-color: #425a8b">
+            Proceed to Checkout
+          </a>
+
+          <a href="shop-cart.html" class="btn btn-submit w-100 fw-bold">
+            View Cart
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="main-wrapper">
+
+    <!-- PRODUCT TOP AREA -->
+    <section class="product-top-area">
+      <div class="row g-4">
+        
+        <!-- GALLERY -->
+        <div class="col-lg-5">
+          <div class="row g-3">
+            <div class="col-12 col-md-2 thumb-column">
+              <div class="thumb-box">
+                <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="thumb 1">
+              </div>
+              <div class="thumb-box">
+                <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="thumb 2">
+              </div>
+              <div class="thumb-box">
+                <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="thumb 3">
+              </div>
+              <div class="thumb-box">
+                <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="thumb 4">
+              </div>
+              <div class="thumb-box">
+                <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=300" alt="thumb 5">
+              </div>
+            </div>
+
+            <div class="col-12 col-md-10">
+              <div class="main-image-box">
+                <span class="discount-badge">-17%</span>
+                <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="main product">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCT INFO -->
+        <div class="col-lg-7">
+          <h1 class="product-title">Samsung 36" French door 28 cu. ft. Smart Energy Star Refrigerator</h1>
+
+          <a href="#" class="product-meta-link">by Ecom Tech</a>
+
+          <div class="mt-2">
+            <span class="rating-stars">★★★★★</span>
+            <span class="small-text ms-1">(65)</span>
+          </div>
+
+          <div class="mt-4 mb-3">
+            <span class="new-price">$2856.3</span>
+            <span class="old-price">$3925.6</span>
+          </div>
+
+          <ul class="product-features">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Nulla sit amet diam condimentum, vehicula elit nec, accumsan velit.</li>
+            <li>Morbi consectetur lacus nec vestibulum auctor.</li>
+            <li>Nulla suscipit tellus vel sem rhoncus auctor.</li>
+          </ul>
+
+          <div class="small-text mb-2">Quantity</div>
+
+          <div class="d-flex align-items-center gap-3 flex-wrap qty-actions">
+            <div class="qty-box">
+              <span>-</span>
+              <span>1</span>
+              <span>+</span>
+            </div>
+
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <button class="btn btn-buy-main">Buy now</button>
+          </div>
+
+          <div class="wishlist-compare">
+            <a href="#"><i class="bi bi-heart"></i> Add to Wish list</a>
+            <a href="#"><i class="bi bi-shuffle"></i> Add to Compare</a>
+          </div>
+
+          <div class="product-meta-list">
+            <div><strong>SKU:</strong> EcomTech1232</div>
+            <div><strong>Category:</strong> Smartphones</div>
+            <div><strong>Tag:</strong> Blue, Smartphone</div>
+          </div>
+
+          <div class="mt-3">
+            <a href="#" class="compare-link">Compare with similar items</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FREQUENTLY BOUGHT TOGETHER -->
+    <section class="fbt-box">
+      <h2 class="subsection-title">Frequently Bought Together</h2>
+
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <div class="d-flex align-items-center flex-wrap gap-3">
+            <div class="fbt-product">
+              <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=300" alt="">
+            </div>
+
+            <div class="plus-sign">+</div>
+
+            <div class="fbt-product">
+              <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=300" alt="">
+            </div>
+          </div>
+
+          <div class="fbt-list">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked id="fbt1">
+              <label class="form-check-label" for="fbt1">
+                This item/Phone 12 Pro Max 128GB Pacific Blue - $1089.00
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked id="fbt2">
+              <label class="form-check-label" for="fbt2">
+                Apple AirPods Pro, Active Noise Cancellation, Custom Fit - $197.00
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked id="fbt3">
+              <label class="form-check-label" for="fbt3">
+                Apple Mac 24" All-In-One Computer, Apple M1, 8GB RAM, 512GB SSD - $1599.00
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="d-flex flex-column align-items-lg-start align-items-center">
+            <div class="fbt-price">$2856.3 <span class="small-text">(3 items)</span></div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESCRIPTION TABS -->
+    <section class="section-block">
+      <ul class="nav custom-tabs">
+        <li class="nav-item">
+          <button class="nav-link active">Description</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link">Specification</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link">Additional information</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link">Reviews (2)</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link">Vendor</button>
+        </li>
+      </ul>
+
+      <p class="description-text">
+        It is a long established fact that a reader will be distracted by the readable content
+        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+        more-or-less normal distribution of letters, as opposed to using 'Content here, content
+        here', making it look like readable English.
+      </p>
+
+      <p class="description-text">
+        Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+        default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+        their infancy. Various versions have evolved over the years.
+      </p>
+
+      <div class="text-center mt-4">
+        <button class="btn btn-more-details">More Details</button>
+      </div>
+    </section>
+
+    <!-- RELATED PRODUCTS -->
+    <section class="section-block">
+      <h2 class="subsection-title">Related Products</h2>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1527430253228-e93688616381?w=500" alt="">
+            </div>
+            <div class="product-brand">Dell</div>
+            <div class="product-name">Dell Optiplex 3000 Small Form Business Desktop Tower</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">HP 24 All-in-One PC, Intel Core i3-1115G4, 8GB RAM</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="">
+            </div>
+            <div class="product-brand">Gateway</div>
+            <div class="product-name">Gateway 23.8" All-in-one Desktop, Fully Adjustable</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="">
+            </div>
+            <div class="product-brand">HP</div>
+            <div class="product-name">HP 24 All-in-One PC, Intel Pentium Silver J5040, 4GB RAM</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500" alt="">
+            </div>
+            <div class="product-brand">Seagate</div>
+            <div class="product-name">Seagate 2.4" Professional Thin Pro 1080p LED Monitor</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YOU MAY ALSO LIKE -->
+    <section class="section-block">
+      <h2 class="subsection-title">You may also like</h2>
+
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1527430253228-e93688616381?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">HP DeskJet 3755 Wireless Color All-in-One Printer</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">Razer Power Up Gaming Bundle V2 - Cynosa Lite</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">Apple AirPods Pro with MagSafe Charging Case</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">SAMSUNG Galaxy Tab A7 Lite, 8.7" Tablet 32GB</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">HP 24mh FHD Monitor - Computer Monitor</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECENTLY VIEWED -->
+    <section class="section-block">
+      <h2 class="subsection-title">Recently viewed items</h2>
+
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="recent-item">
+            <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=300" alt="">
+            <div>
+              <div class="product-brand">Apple</div>
+              <div class="recent-title">SAMSUNG Galaxy Tab A7 Lite, 8.7" Tablet 32GB</div>
+              <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+              <div class="mt-1">
+                <span class="product-price">$2556.3</span>
+                <span class="product-old-price">$3225.6</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="recent-item">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300" alt="">
+            <div>
+              <div class="product-brand">Apple</div>
+              <div class="recent-title">Alexa 8.8 HD (32GB) LED Desktop with TV</div>
+              <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+              <div class="mt-1">
+                <span class="product-price">$2556.3</span>
+                <span class="product-old-price">$3225.6</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="recent-item">
+            <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=300" alt="">
+            <div>
+              <div class="product-brand">Apple</div>
+              <div class="recent-title">HP 24mh FHD Monitor - Computer Monitor with 23.8-inch</div>
+              <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+              <div class="mt-1">
+                <span class="product-price">$2656.3</span>
+                <span class="product-old-price">$3225.6</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="recent-item">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300" alt="">
+            <div>
+              <div class="product-brand">Apple</div>
+              <div class="recent-title">Logitech K780 Wired Headset</div>
+              <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+              <div class="mt-1">
+                <span class="product-price">$2556.3</span>
+                <span class="product-old-price">$3225.6</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMILAR PRODUCTS -->
+    <section class="section-block">
+      <h2 class="subsection-title">Similar products to compare</h2>
+
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1527430253228-e93688616381?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">Logitech MK345 Wireless Combo Full-sized Keyboard</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">Logitech Brio 4K Webcam, Ultra 4K HD Video Calling</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">HP 24mh FHD Monitor - Computer Monitor</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">2022 Apple iMac with Retina 5K Display 8GB RAM</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-2-4">
+          <div class="product-card">
+            <span class="sale-badge">-17%</span>
+            <div class="product-card-image">
+              <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="">
+            </div>
+            <div class="product-brand">Apple</div>
+            <div class="product-name">Seagate Portable 2TB External Hard Drive</div>
+            <div class="rating-stars">★★★★★ <span class="small-text">(65)</span></div>
+            <div class="product-price-row">
+              <span class="product-price">$2856.3</span>
+              <span class="product-old-price">$3225.6</span>
+            </div>
+             <button
+              
+                type="button"
+                class="btn btn-light btn-sm text-secondary border-secondary w-100 fw-semibold mt-auto"
+                onclick="addToCart(1)">
+                Add To Cart
+
+               
+              </button>
+            <ul class="mini-features">
+              <li>27-inch diagonal Retina 5K display</li>
+              <li>3.2GHz 6-core processor</li>
+              <li>AMD Radeon graphics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM BANNER -->
+    <section class="section-block mb-0">
+      <div class="banner-box">
+        <div class="banner-left">
+          <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="iPhone group">
+        </div>
+
+        <div class="banner-content">
+          <div class="banner-main-title"><i class="bi bi-apple"></i> iPhone 13 Series</div>
+          <div style="font-size: 18px; color:#444; margin-bottom: 8px;">
+            Now Available at Cell City.
+          </div>
+          <div class="banner-small">
+            iPhone 13 Pro Max | iPhone 13 Pro | iPhone 13 | iPhone 13 mini
+          </div>
+        </div>
+
+        <div class="banner-right">
+          <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?w=500" alt="iPhone single">
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <style>
+    /* Bootstrap doesn't include col-lg-2-4, so we simulate 5 columns */
+    @media (min-width: 992px) {
+      .col-lg-2-4 {
+        flex: 0 0 auto;
+        width: 20%;
+      }
+    }
+  </style>
+  <footer class="footer bg-light pt-5 border-top">
+      <div class="container mb-5">
+        <div
+          class="p-4 p-md-5 rounded-4 position-relative overflow-hidden"
+          style="background-color: #425a8b; color: #fff"
+        >
+          <div class="row align-items-center g-3 position-relative z-2">
+            <div class="col-lg-6">
+              <h4 class="fw-bold mb-1">Subscribe & Get 10% Discount</h4>
+              <p class="text-white-50 small mb-0">
+                Get E-mail updates about our latest shop and special offers.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <form class="d-flex gap-2">
+                <input
+                  type="email"
+                  class="form-control form-control-lg fs-6"
+                  placeholder="Your email address..."
+                  required
+                />
+                <button
+                  class="btn btn-warning btn-lg text-white fw-bold px-4 flex-shrink-0"
+                  type="submit"
+                  style="background-color: #ff6b35; border: none"
+                >
+                  Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="fw-bold mb-3 text-dark">Contact</h6>
+            <p class="text-muted small mb-2">
+              <strong>Address:</strong> 502 New Design Str, Melbourne, San
+              Francisco, CA 94110, United States
+            </p>
+            <p class="text-muted small mb-2">
+              <strong>Phone:</strong> (+01) 123-456-789
+            </p>
+            <p class="text-muted small mb-2">
+              <strong>E-mail:</strong> contact@ecom-market.com
+            </p>
+            <p class="text-muted small mb-3">
+              <strong>Hours:</strong> 8:00 - 17:00, Mon - Sat
+            </p>
+            <div class="d-flex gap-2 text-primary">
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="btn btn-sm btn-outline-primary rounded-circle"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <h6 class="fw-bold mb-3 text-dark">Information</h6>
+            <ul
+              class="list-unstyled small text-muted d-flex flex-column gap-2 mb-0"
+            >
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Our Team</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Careers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Press & Media</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Advertising</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Testimonials</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <h6 class="fw-bold mb-3 text-dark">Company</h6>
+            <ul
+              class="list-unstyled small text-muted d-flex flex-column gap-2 mb-0"
+            >
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Our Blog</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Plans & Pricing</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Knowledge Base</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Cookie Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Office Center</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› News & Events</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 col-lg-2">
+            <h6 class="fw-bold mb-3 text-dark">My account</h6>
+            <ul
+              class="list-unstyled small text-muted d-flex flex-column gap-2 mb-0"
+            >
+              <li>
+                <a href="#" class="text-decoration-none text-muted">› FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Editor Help</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Community</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Live Chatting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-muted"
+                  >› Support Center</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-3 col-lg-3">
+            <h6 class="fw-bold mb-3 text-dark">App & Payment</h6>
+            <p class="text-muted small mb-3">
+              Download our Apps and get extra 15% Discount on your first
+              Order...!
+            </p>
+            <div class="d-flex gap-2 mb-3">
+              <a href="#"
+                ><img
+                  src="./images/Ecom - Ecom Marketplace Template_files/google-play.png"
+                  alt="Google Play"
+                  style="height: 35px"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/appstore.png"
+                  alt="App Store"
+                  style="height: 35px"
+              /></a>
+            </div>
+            <p class="text-muted small mb-1">Secured Payment Gateways</p>
+            <div class="d-flex gap-2 align-items-center fs-4 text-secondary">
+              <img
+                src="./images/Ecom - Ecom Marketplace Template_files/payment-method.png"
+                alt="Payment Methods"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-4 border-top" style="background-color: #eef2f5">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+            <h4 class="fw-bold text-primary mb-0 me-3">
+              <img src="./images/logo.svg" alt="Logo" />
+            </h4>
+            <div class="d-flex flex-wrap gap-3 small text-muted">
+              <a href="#" class="text-muted text-decoration-none"
+                >EcomMarket.com</a
+              >
+              |
+              <a href="#" class="text-muted text-decoration-none"
+                >Ecom Partners</a
+              >
+              |
+              <a href="#" class="text-muted text-decoration-none"
+                >Ecom Business</a
+              >
+              |
+              <a href="#" class="text-muted text-decoration-none"
+                >Ecom Factory</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="small text-muted mb-3"
+            style="font-size: 13px; line-height: 1.8"
+          >
+            <span class="fw-bold text-dark me-2">Electronic:</span>
+            <a href="#" class="text-muted text-decoration-none">Cell Phones</a>
+            |
+            <a href="#" class="text-muted text-decoration-none me-2 ms-2"
+              >Headphones</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none me-2 ms-2"
+              >Television & Video</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none me-2 ms-2"
+              >Game Controller</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Apple Watch</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >HTC</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Ipad</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Keyboard</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Samsung</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Wireless Speaker</a
+            >
+            <br />
+            <span class="fw-bold text-dark me-2">Furniture:</span>
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Sofa</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Chair</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Dining Table</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Living Room</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Table Lamp</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Night Stand</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Computer Desk</a
+            >
+            |
+            <a href="#" class="text-muted text-decoration-none ms-2 me-2"
+              >Bar Table</a
+            >
+          </div>
+
+          <div
+            class="d-flex flex-wrap justify-content-between align-items-center small text-muted border-top pt-3"
+            style="font-size: 12px"
+          >
+            <span>Copyright 2022 Ecom Market. All rights reserved.</span>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-muted text-decoration-none"
+                >Conditions of Use</a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                >Privacy Notice</a
+              >
+              <a href="#" class="text-muted text-decoration-none"
+                >Interest-Based Ads</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" 
+    id="back-to-top"
+
+    class="btn  position-fixed bottom-0 end-0 m-3 rounded-circle"
+    style="display: none; background-color:#425A8B">
+    <i class="fa fa-arrow-up" ></i></a>
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
